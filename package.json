@@ -1,0 +1,26 @@
+{
+  "name": "geradordeqrcodesparaecommercescomnodejs",
+  "version": "1.0.0",
+  "description": "Kit de utilidades para e-commerces.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --env-file=.env src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LucasBatistaX/GeradorDeQRCodesParaEcommercesComNodeJS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/LucasBatistaX/GeradorDeQRCodesParaEcommercesComNodeJS/issues"
+  },
+  "homepage": "https://github.com/LucasBatistaX/GeradorDeQRCodesParaEcommercesComNodeJS#readme",
+  "dependencies": {
+    "chalk": "^5.4.1",
+    "prompt": "^1.3.0",
+    "qrcode-terminal": "^0.12.0"
+  }
+}
